@@ -1,7 +1,5 @@
-import pytest
 from fastapi.testclient import TestClient
 from app.endpoints import app
-from app.endpoints import OperationRequest, OperationResponse
 
 client = TestClient(app)
 
